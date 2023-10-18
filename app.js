@@ -15,9 +15,7 @@ app.use((req, res, next) => {
   next();
 });
 
-// app.use((req, res, next) => {
-//   res.send({ message: 'I am william' });
-// });
+
 app.use('/images', express.static('images'))
 
 app.use('/api/get-items', getItems);
