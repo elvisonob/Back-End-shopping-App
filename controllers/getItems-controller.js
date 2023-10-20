@@ -18,7 +18,7 @@ const items = [
   {
     id: 'm3',
     name: 'Rice',
-    image: 'https://shopping-backend-application.onrender.com/images/potatoes.jpg',
+    image: 'https://shopping-backend-application.onrender.com/images/rice.jpg',
     price: 3.4,
     useByDate: new Date(2025, 1, 15).getFullYear().toString(),
   },
@@ -26,7 +26,7 @@ const items = [
   {
     id: 'm4',
     name: 'Potatoes',
-    image: 'https://shopping-backend-application.onrender.com/images/rice.jpg',
+    image: 'https://shopping-backend-application.onrender.com/images/potatoes.jpg',
     price: 4.2,
     useByDate: new Date(2025, 5, 20).getFullYear().toString(),
   },
