@@ -21,4 +21,4 @@ app.use('/images', express.static('images'))
 app.use('/api/get-items', getItems);
 
 const PORT = process.env.PORT || 8080;
-app.listen(8080);
+app.listen(PORT);
